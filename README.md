@@ -10,3 +10,6 @@ The first problem of this approach is that Visual Studio opens text based files 
 This includes html files, that could contain test reports that should be opened as web pages, not as text.
 
 The second problem is that binary files, or files that are unknown to Visual Studio, are opened as raw binary files.
+
+Visual Studio should let developers to choose how the test attachments are opened within the context of test explorer, or at the very least extend
+the context menu to allow opening the file using the shell, or opening the folder containing the test attachment file.
